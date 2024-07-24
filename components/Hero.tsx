@@ -38,7 +38,7 @@ const Hero = () => {
                     words={"David's Insane Portfolio blah blahc sdkfj "}
                     />
                     <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-                        Hi I'm David
+                        Hi Im David
                     </p>
                     <a href="#about">
                         <MagicButton 
