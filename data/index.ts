@@ -1,8 +1,8 @@
 export const navItems = [
-  { name: "Top", link: "/" },
+  
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Clients", link: "#testimonials" },
+  { name: "Tech Stack", link: "#tech" },
   { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
@@ -10,8 +10,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
+    title: "About me",
+    description: "I am a junior studying computer science at the University of Pennsylvania. I intend to graduate in Spring 2026. Outside of school, I enjoy playing and watching sports like soccer and basketball.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -30,8 +30,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Take my email!",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -74,11 +74,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Portfolio",
+    des: "A delicious website to showcase my portfolio using NextJS",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    iconLists: ["/re.svg", "/next.svg", "/ts.svg", "/fm.svg"],
+    link: "/",
   },
   {
     id: 2,
@@ -138,6 +138,30 @@ export const testimonials = [
     title: "Director of AlphaStream Technologies",
   },
 ];
+//lang ; TypeScript, javascript, java, python, NextJS, Dart, Flutter
+//services: AWS, Google Cloud, Google Firebase
+//frontend: react, bootstrap, tailwindCSS
+//backend: nodeJS, 
+//data infrastructure: MongoDB, Neo4j, MySQL, ORacle, AWS
+export const techStack = [
+  { id: 1, name: "TypeScript", img: "/tech/typescript.svg" },
+  { id: 2, name: "JavaScript", img: "/javascript.svg" },
+  { id: 3, name: "Java", img: "/java.svg" },
+  { id: 4, name: "Python", img: "/python.svg" },  // Corrected image for Python
+  { id: 5, name: "NextJS", img: "/next.svg" },
+  { id: 6, name: "React", img: "/react.svg" },
+  { id: 7, name: "TailWindCSS", img: "/tailwind.svg" },
+  { id: 8, name: "Dart", img: "/dart.svg" },
+  { id: 9, name: "Flutter", img: "/flutter.svg" },
+  { id: 10, name: "Swift", img: "/swift.svg" },
+  { id: 11, name: "AWS", img: "/aws.svg" },
+  { id: 12, name: "Firebase", img: "/firebase.svg" },
+  { id: 13, name: "MongoDB", img: "/mongo.svg" },
+  { id: 14, name: "neo4j", img: "/neo4j.svg" },
+  { id: 15, name: "MySQL", img: "/mysql.svg" },
+  { id: 16, name: "git", img: "/git.svg" },
+];
+
 
 export const companies = [
   {
@@ -175,29 +199,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "App Development Intern - Ventoscity LLC",
+    desc: "Assisted in the development of a mobile and web-based app using flutter which interfaces with wearable bluetooth technology for UMD-based startup",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Frontend Developer - keep.id",
+    desc: "Developed and maintained user-facing features using modern frontend technologies using React and MongoDB",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Mobile App Developer - The Daily Pennsylvanian",
+    desc: "Developed and maintained DP+, a mobile app with over 5k readers a day",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Cinnabon",
+    desc: "Developed and maintained cinnamon rolls. ",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -207,13 +231,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/dzhan111"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/monkey15542"
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/davidzhan123/"
   },
 ];
