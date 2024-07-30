@@ -28,3 +28,4 @@ You will need to register with Sentry to obtain a SENTRY_AUTH_TOKEN and provide 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+Made with TypeScript, NextJS, TailwindCSS, FramerMotion, + Aceternity UI.

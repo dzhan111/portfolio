@@ -27,13 +27,13 @@ const Clients = () => {
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10 mx-44 mt-40">
           {techStack.map((tech) => (
             <React.Fragment key={tech.id}>
-              <div className="flex md:max-w-20 max-w-32 gap-2 ">
-                {/* <img
+              <div className="flex md:max-w-20 max-w-32 gap-2">
+                <img
                   src={tech.img}
                   alt={tech.name}
                   className="md:w-10 w-5"
-                /> */}
-                <h2 className="text-xl gap-2">{tech.name}</h2>
+                /> 
+                
                 
                 
                 

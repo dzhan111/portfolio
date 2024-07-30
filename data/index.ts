@@ -38,37 +38,7 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-  {
-    id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
-  },
-
-  {
-    id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
-  },
-  {
-    id: 6,
-    title: "Do you want to start a project together?",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
-    spareImg: "",
-  },
+  
 ];
 
 export const projects = [
@@ -144,22 +114,17 @@ export const testimonials = [
 //backend: nodeJS, 
 //data infrastructure: MongoDB, Neo4j, MySQL, ORacle, AWS
 export const techStack = [
-  { id: 1, name: "TypeScript", img: "/tech/typescript.svg" },
-  { id: 2, name: "JavaScript", img: "/javascript.svg" },
-  { id: 3, name: "Java", img: "/java.svg" },
-  { id: 4, name: "Python", img: "/python.svg" },  // Corrected image for Python
-  { id: 5, name: "NextJS", img: "/next.svg" },
-  { id: 6, name: "React", img: "/react.svg" },
-  { id: 7, name: "TailWindCSS", img: "/tailwind.svg" },
-  { id: 8, name: "Dart", img: "/dart.svg" },
-  { id: 9, name: "Flutter", img: "/flutter.svg" },
-  { id: 10, name: "Swift", img: "/swift.svg" },
-  { id: 11, name: "AWS", img: "/aws.svg" },
-  { id: 12, name: "Firebase", img: "/firebase.svg" },
-  { id: 13, name: "MongoDB", img: "/mongo.svg" },
-  { id: 14, name: "neo4j", img: "/neo4j.svg" },
-  { id: 15, name: "MySQL", img: "/mysql.svg" },
-  { id: 16, name: "git", img: "/git.svg" },
+  { id: 1, name: "TypeScript", img: "/ts.svg" },
+  
+ 
+  { id: 2, name: "NextJS", img: "/next.svg" },
+  { id: 3, name: "React", img: "/re.svg" },
+  { id: 4, name: "TailWindCSS", img: "/tail.svg" },
+
+  
+  { id: 5, name: "Framer Motion", img: "/fm.svg" },
+
+  { id: 6, name: "git", img: "/git.svg" },
 ];
 
 
